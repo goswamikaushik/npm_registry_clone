@@ -21,7 +21,7 @@ export default function SearchInput() {
         <input
           value={term}
           onChange={(e) => setTerm(e.target.value)}
-          className="pl-10 py-2 w-full border-0 shadow-none"
+          className="pl-10 py-2 w-full border border-blue-500 rounded shadow-none"
           placeholder="Search packages"
         />
       </div>

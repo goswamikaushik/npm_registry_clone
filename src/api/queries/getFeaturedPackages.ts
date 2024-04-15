@@ -9,10 +9,6 @@ const FEATURED_PACKAGES = [
   "express.js",
   "axios",
   "debug",
-  "prop-types",
-  "react-dom",
-  "vue",
-  "classnames",
 ];
 
 export async function getFeaturedPackages() {
